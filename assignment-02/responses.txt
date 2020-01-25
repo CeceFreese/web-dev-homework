@@ -1,0 +1,24 @@
+Cecelia Freese
+Intro to Web Design
+
+Briefly describe one way how data travels on the internet.
+  One way information is moved on the internet is through light moving
+  through fiber optic cable. Information as light can be bounced at different
+  angles inside the cable, meaning that more information can be moved at the
+  same time without getting jumbled.
+
+
+What is the relationship between an IP address and the DNS?
+  An IP address is a number attached to a computer that distinguished it from
+  the rest. The DNS or Domain Name System is like a phonebook for your computer.
+  It is a group of servers that connect names of websites to their IP addresses.
+  Instead of the computer needing the IP address of another entity it can look
+  up the name associated with that entity in the DNS and find the IP address
+  through it.
+
+What is a cookie?
+  A cookie is a piece of information that a web browser uses to identify the
+  user of its websites.
+
+List the three basic parts of a URL.
+  protocol, domain, path
