@@ -1,0 +1,23 @@
+Cecelia Freese
+
+How is the web different than the internet?
+  The internet is a large distributed network (of networks), similar to a mesh,  housing information that
+  can be passed from one area to another very easily.
+  The web is the system that connects and organizes information by topic, making it accessible and user friendly.
+
+Briefly describe how the internet works.
+  The internet is a wire connecting to a server that houses files. Two computers on the same wire can connect
+  to each other. You connect your computer to the internet through an internet service provider and then into a
+  server that houses the information you are looking for. If you are sending something across the internet, the
+  information is broken into packets and sent through many different channels to the receiver where they are 
+  reassembled.
+
+What is a directory, and what is its relationship to files?
+  A directory is a folder used to house and organize files.
+
+Why is using VCS beneficial?
+  A version control system is useful for tracking changes made to your projects. With each modification to a project,
+  GitHub forces you to "commit" changes, similar to saving a draft. The nice thing about this is that the user can go
+  back and look at each version of the project that was "committed" and can revert back to an older version or just
+  look at changes. Adding clear comments to each commit will help to describe what changes were made to the file,
+  making it easier to find what you're looking for later.
