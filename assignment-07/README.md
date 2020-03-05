@@ -1,3 +1,6 @@
+#Assignment 07
+##Cecelia Freese
+
 Differences between divs, classes, ids, spans.
 
   A div is an element used to group things together and contains one id, one or more classes, and one span or more if necessary. An id is an attribute that acts as an identifier for the element and should be different for each. A class is another attribute and is used for styling. Spans are used for sectioning inside the div and are used to show text inside the div.
