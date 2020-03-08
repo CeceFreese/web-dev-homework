@@ -1,3 +1,6 @@
+# Assignment 3
+## Cecelia Freese
+
 How do browsers function? List browsers you use.
 
   Through your web browser, a request for information is sent to a server

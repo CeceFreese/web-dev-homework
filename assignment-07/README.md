@@ -1,5 +1,5 @@
-#Assignment 07
-##Cecelia Freese
+# Assignment 07
+## Cecelia Freese
 
 Differences between divs, classes, ids, spans.
 

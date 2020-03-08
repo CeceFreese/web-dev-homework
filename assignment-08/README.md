@@ -1,5 +1,5 @@
-#Assignment 08
-##Cecelia Freese
+# Assignment 08
+## Cecelia Freese
 
 Recap experience with HTML, what was old, new, interesting, or difficult to learn.
 
@@ -11,4 +11,4 @@ I'm excited to learn more about styling. HTML is decent but every website I have
 
 Summarize work cycle.
 
-Take notes one day, knockout project over three. 
+Take notes one day, knockout project over three.

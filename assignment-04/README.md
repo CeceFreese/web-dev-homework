@@ -1,5 +1,5 @@
 # Assignment 4
-##Cecelia Freese
+## Cecelia Freese
 
 Using The Wayback Machine, I visited Amazon.com from February 4, 2005. The general layout of the site is the same, but the colors and fonts are different. Modern Amazon is image heavy, whereas 2005 Amazon's homepage is mostly hyperlink text.
 
