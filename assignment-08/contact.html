@@ -11,15 +11,17 @@
           body {
             background-color: HoneyDew;
             font-family: Georgia;
+            text-align: center;
           }
           .bar {
             background-color: Gainsboro;
             padding: 5px;
+            text-align: left;
           }
           h1 {
-            text-align: center;
             font-family: Arial;
           }
+
         </style>
     </head>
     <body>
@@ -35,6 +37,38 @@
       <br />
 
       <h1>Contact</h1>
+
+      <br />
+
+      <div id="form" class="form">
+      <h4>Like Coffee?</h4>
+      <form
+      action="http://www.example.com/subscribe.php"
+      method="post">
+      <input type="radio" name="level" value="yes" checked/> Yes
+      <br />
+      <input type="radio" name="level" value="no" /> No
+      <br />
+      <input type="radio" name="level" value="no comment" /> No Comment
+      </form>
+      </div>
+
+      <p>
+        Anything to add?
+        <br />
+        <textarea name="comments" id="test-textarea">Respond Here!</textarea>
+      </p>
+
+      <br />
+
+      <form
+          action="http://www.example.com/subscribe.php"
+          method="post">
+
+          <input type="image"
+              src="./images/submit-button.png"
+              alt="subscribe button image" width="150"/>
+      </form>
 
     </body>
   </html>
