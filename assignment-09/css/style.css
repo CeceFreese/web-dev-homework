@@ -1,0 +1,38 @@
+
+* {
+
+  /* gradient */
+  background: rgb(139,231,250);
+  background: linear-gradient(90deg, rgba(139,231,250,1) 0%, rgba(199,240,124,1) 50%, rgba(139,231,250,1) 100%);
+  /*make all (*) text teal*/
+  color: #789F1D;
+  /*font specifications for paragraphs*/
+
+  font-family: "Lucida Console", Courier, monospace;
+
+}
+
+.lorem {
+  background: rgba(255, 255, 255, 0.5); /*not sure why its only filling part,
+                                        probablyy an issue with the gradient, is
+                                        styling for padding instead of full element*/
+  padding: 3px;
+  position: absolute;
+}
+
+p{
+  background: rgba(255, 255, 255, 0.9);
+
+}
+/*chaining not working, p.lorem doesnt render anything, seperated it works*/
+
+#heading{
+  text-align: center;
+}
+
+img{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
