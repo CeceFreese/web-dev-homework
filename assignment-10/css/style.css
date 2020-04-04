@@ -1,10 +1,9 @@
 * {
   background: #F9F6E4;
 
-  text-align: justify;
 }
 
-/*FONTS NEED TO BE FIXED, they are not translating into the document*/
+/*FONTS NEED TO BE FIXED, haha FIXED!!!*/
 @font-face{
     font-family: 'Amble-Light';
     src: url('../fonts/Amble-Light.ttf') format('truetype')
@@ -20,15 +19,18 @@
 }
 
 /*first letter of each paragraph */
-p::first-letter{ color:#1DFF55; font-weight:bold; font-size:30px;}
+p::first-letter{ color:#7AD690; font-weight:bold; font-size:30px;}
 
-.info{
+/*REMEMBER # for id, . for class*/
+
+#info{
   font-family: 'Amble-Light', sans-serif;
   font-weight: normal;
+  text-align: center;
 }
 
-.writting{
-  font-family: 'Alice-Regular', serif;
+#writting{
+  font-family: 'Alice-Regular', Courier, serif;
   font-weight: normal;
 }
 
