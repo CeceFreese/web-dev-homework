@@ -1,0 +1,45 @@
+* {
+  background: #F9F6E4;
+
+  text-align: justify;
+}
+
+/*FONTS NEED TO BE FIXED, they are not translating into the document*/
+@font-face{
+    font-family: 'Amble-Light';
+    src: url('../fonts/Amble-Light.ttf') format('truetype')
+    font-weight:normal;
+    font-style: normal;
+  }
+
+@font-face{
+  font-family: 'Alice-Regular';
+  src: url('../fonts/Alice-Regular.ttf') format('truetype')
+  font-weight:normal;
+  font-style:normal;
+}
+
+/*first letter of each paragraph */
+p::first-letter{ color:#1DFF55; font-weight:bold; font-size:30px;}
+
+.info{
+  font-family: 'Amble-Light', sans-serif;
+  font-weight: normal;
+}
+
+.writting{
+  font-family: 'Alice-Regular', serif;
+  font-weight: normal;
+}
+
+a:link{
+  color:blue;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover{
+  color:blue;
+}
