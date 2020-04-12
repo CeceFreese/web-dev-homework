@@ -1,0 +1,75 @@
+#title{
+  font-size: 20px;
+  border-style: hidden;
+  border-width: thin;
+  padding: 2px;
+  margin-left: -35px; /*NEGATIVE PIXEL VALUES WORK!!!*/
+  float: left;
+}
+/* Copied from Assignment 11 website, section "Hiding in Place"*/
+.menu-item {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 50px;
+    margin-top: 20px;
+    min-width: 8em;
+    text-align: center;
+    background-color: white;
+    padding: 0.5em 0;
+}
+
+.menu-item a {
+    color: black;
+    text-decoration: none;
+}
+.menu-item:hover {
+    background-color: #fcf1b3;
+}
+
+/* Add a dropdown feature: */
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px;
+    margin: 0;
+    margin-top: 0.5em;
+    color: black;
+    background-color: white;
+    z-index: 1;
+
+}
+.dropdown-content a {
+    color: #000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: black;
+    background-color: #fcf1b3;
+}
+
+.box{
+  display: block;
+  width: 90%;
+  height:1000px;
+  border: none;
+  margin-top: 50px;
+  margin-left: 0px;
+  padding-left: 0px;
+  background-color: #fcf1b3;
+  float: left; /*pushed to the right*/
+}
