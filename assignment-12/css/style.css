@@ -1,0 +1,142 @@
+/*website for purchasing flowers and seeds*/
+
+
+#title{
+  font-size: 30px;
+  font-family: Georgia, serif;
+}
+/*code from example in week 11*/
+.menu-item {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 50px;
+    margin-top: 20px;
+    min-width: 8em;
+    text-align: left;
+    background-color: white;
+    padding: 10px;
+    font-family: Georgia, serif;
+}
+
+.menu-item a {
+    color: black;
+    text-decoration: none;
+}
+.menu-item:hover {
+    background-color: #ffd4d7;
+}
+
+/* Add a dropdown feature: */
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px;
+    margin: 0;
+    margin-top: 0.5em;
+    color: black;
+    background-color: white;
+    z-index: 1;
+    font-family: Georgia, serif;
+
+}
+.dropdown-content a {
+    color: #000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 7px;
+    padding-left: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-width: 7em;
+    font-family: Georgia, serif;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: black;
+    background-color: #ffd4d7;
+}
+
+#images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image_1{
+  margin-left:30px;
+  margin-right:30px;
+  margin-top:10px;
+  margin-bottom:60px;
+
+}
+
+.image_2{
+  margin-left:30px;
+  margin-right:30px;
+  margin-bottom:60px;
+
+}
+
+.image_3{
+  margin-left:30px;
+  margin-right:30px;
+  margin-bottom:60px;
+
+}
+
+.image_4{
+  margin-left:30px;
+  margin-right:30px;
+  margin-bottom:60px;
+
+}
+
+.image_5{
+  margin-left:30px;
+  margin-right:30px;
+  margin-bottom:60px;
+
+}
+/* about */
+.feedback{
+  font-size: 20px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 60px;
+}
+
+.person{
+  font-size:17px;
+}
+
+/* catalog */
+.seeds{
+  display: inline;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Georgia, serif;
+
+}
+
+.packets{
+  padding:10px;
+}
+
+/* about,home */
+.text{
+  font-size: 20px;
+  margin:40px;
+  text-align: center;
+  font-family: Lucida, sans-serif;
+}
