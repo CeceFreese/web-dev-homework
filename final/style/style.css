@@ -1,7 +1,21 @@
+@font-face{
+    font-family: 'Dealerplate California';
+    src: url('../fonts/dealerplate_california.ttf') format('truetype')
+    font-weight:normal;
+    font-style: normal;
+  }
+
+@font-face{
+  font-family: 'Futrw';
+  src: url('../fonts/FUTRW.ttf') format('truetype')
+  font-weight:normal;
+  font-style:normal;
+}
+
 
 #title{
   font-size: 30px;
-  font-family: monospace;
+  font-family: Futrw, monospace;
 }
 
 .menu-item {
@@ -14,7 +28,7 @@
     text-align: left;
     background-color: white;
     padding: 10px;
-    font-family: monospace;
+    font-family: Dealerplate California, monospace;
     font-size: 15px;
 }
 
@@ -40,7 +54,7 @@
     color: black;
     background-color: white;
     z-index: 1;
-    font-family: monospace;
+    font-family: Dealerplate California, monospace;
     font-size: 15px;
 
 }
@@ -74,10 +88,83 @@
   margin-left: 10%;
   margin-right: 10%;
   padding:7%;
+  float: center;
+  font-family: Dealerplate California, monospace;
 }
 
 .content{
   text-align: center;
-  font-size: 200px;
+  font-size: 80px;
+  font-family: Dealerplate California, monospace;
   padding: 10px;
 }
+
+.box1{
+  display: inline-block;
+  width: 20%;
+  height:100px;
+  border: none;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-left: 50px;
+  margin-bottom: 5px;
+  background-color: #808080;
+  float: center;
+}
+
+.box2{
+  display: inline-block;
+  width: 40%;
+  height:100px;
+  border: none;
+  margin-top: 50px;
+  margin-right: 50px;
+  padding-left: 0px;
+  margin-bottom: 5px;
+  background-color: #dec1c1;
+  float: right;
+}
+
+.box3{
+  display: inline-block;
+  width: 60%;
+  height:100px;
+  border: none;
+  margin-top: 5px;
+  margin-left: 50px;
+  padding-left: 0px;
+  background-color: #2e1c1c;
+  float: center;
+}
+
+.box4{
+    display: inline-block;
+    width: 10%;
+    height:100px;
+    border: none;
+    margin-top: 5px;
+    margin-right: 50px;
+    padding-left: 0px;
+    background-color: #000000;
+    float: right;
+  }
+
+  .box5{
+    display: inline-block;
+    width: 500px;
+    height:100px;
+    border: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    background-color: #fcebeb;
+    float: center;
+  }
+
+  .images{
+    float: center;
+  }
+
+  .button{
+    float: right;
+  }
